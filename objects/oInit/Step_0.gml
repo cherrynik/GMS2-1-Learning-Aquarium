@@ -1,3 +1,4 @@
+// Create fishes in room
 while (isLeft != 0) {
 	var
 		_xx = irandom_range(64, room_width),

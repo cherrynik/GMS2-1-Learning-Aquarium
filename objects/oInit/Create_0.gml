@@ -1,4 +1,4 @@
-randomize() // For seriously random values
+//randomize() // For seriously random values
 
 Layer = "Fishes" // Layer name
 Object = oPlayer // Object name

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0307e48c-952c-47a0-9d90-a0074961edc3",
+            "Value": {
+                "id": "2ef3b593-8a2d-4556-be2c-52a19694ef1c",
+                "resourcePath": "views\\0307e48c-952c-47a0-9d90-a0074961edc3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3740a276-1f59-4afb-97e8-f93014723876",
             "Value": {
                 "id": "ec03e437-eb50-4ac5-a52b-2f3b24e32ead",
@@ -119,11 +127,27 @@
             }
         },
         {
+            "Key": "cc7a77d3-a1aa-421c-b4fa-01364229390e",
+            "Value": {
+                "id": "30476847-9d71-4409-bae7-783b14070b8e",
+                "resourcePath": "objects\\oFadeIn\\oFadeIn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "4f0a0cea-3651-4981-baee-445438a370de",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce21c059-98f4-4d99-a5f4-a0935aa813da",
+            "Value": {
+                "id": "39762d5c-0f5b-4c75-ad1e-b1fc26258ddd",
+                "resourcePath": "views\\ce21c059-98f4-4d99-a5f4-a0935aa813da.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
