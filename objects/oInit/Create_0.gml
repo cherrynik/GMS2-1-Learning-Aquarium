@@ -1,7 +1,7 @@
-//randomize() // For seriously random values
+//randomize() // For true random values (in the room)
 
-Layer = "Fishes" // Layer name
-Object = oPlayer // Object name
-isLeft = irandom_range(1, 6) // How many objects in the room
+// Init fishes
+event_user(0)
 
-layer_create(10, Layer)
+// Init music
+event_user(1)

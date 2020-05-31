@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "aba4ed97-381d-427e-8e96-77053ba93b88",
+            "Value": {
+                "id": "21de43cb-d622-4a27-8ca3-f3928b962613",
+                "resourcePath": "sounds\\aTheme\\aTheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc7a77d3-a1aa-421c-b4fa-01364229390e",
             "Value": {
                 "id": "30476847-9d71-4409-bae7-783b14070b8e",
