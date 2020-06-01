@@ -63,11 +63,27 @@
             }
         },
         {
+            "Key": "4635e23f-071a-4099-8414-e50bcebace79",
+            "Value": {
+                "id": "1af7ed51-65ca-4bb5-b43e-593289da52c4",
+                "resourcePath": "sprites\\sCollision\\sCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5044db34-4187-419a-8698-ad269db5d87f",
             "Value": {
                 "id": "ecde42f2-af35-4883-9bbf-320158a50c8f",
                 "resourcePath": "views\\5044db34-4187-419a-8698-ad269db5d87f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "55b698fa-fa2c-4480-b1dc-a9e8dfee8005",
+            "Value": {
+                "id": "b282ee20-d83b-4617-ab29-8e1a79255dbe",
+                "resourcePath": "objects\\oCollision\\oCollision.yy",
+                "resourceType": "GMObject"
             }
         },
         {

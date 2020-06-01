@@ -3,5 +3,6 @@
 #macro STEP 1 // How many decreases from alpha
 
 Alpha = 1
+Layer = "FadeIn"
 
 alarm[0] = 30
