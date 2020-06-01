@@ -6,7 +6,7 @@ ObjectOffY = sprite_get_yoffset(sPlayer)
 
 Collision = oCollision // Object in which we wont spawn fishes
 
-isLeft = irandom_range(1, 6) // How many objects in the room
+isLeft = 50000 // How many objects in the room
 
 layer_create(10, Layer)
 
@@ -16,22 +16,23 @@ while (isLeft != 0) {
 	xx = irandom_range(0, room_width)
 	yy = irandom_range(0, room_height)
 	
+	// FIXME: Random generating doesn't work correct
 	with (Collision) {
 		var
-			_is_in_solid_x = (other.xx >= (self.x - sprite_width - other.ObjectOffX)) and (other.xx <= (self.x + sprite_width + other.ObjectOffX)),
-			_is_in_solid_y = (other.yy >= (self.y - sprite_height - other.ObjectOffY)) and (other.yy <= (self.y + sprite_height + other.ObjectOffY))
+			_is_in_solid_x = (other.xx >= (x - sprite_width - other.ObjectOffX)) and (other.xx <= (x + sprite_width + other.ObjectOffX)),
+			_is_in_solid_y = (other.yy >= (y - sprite_height - other.ObjectOffY)) and (other.yy <= (y + sprite_height + other.ObjectOffY))
 		
 		while ((_is_in_solid_x) and (_is_in_solid_y)) {
 			other.xx = irandom_range(0, room_width)
 			other.yy = irandom_range(0, room_height)
 				
-			_is_in_solid_x = (other.xx >= (self.x - sprite_width - other.ObjectOffX)) and (other.xx <= (self.x + sprite_width + other.ObjectOffX))
-			_is_in_solid_y = (other.yy >= (self.y - sprite_height - other.ObjectOffY)) and (other.yy <= (self.y + sprite_height + other.ObjectOffY))
+			_is_in_solid_x = (other.xx >= (x - sprite_width - other.ObjectOffX)) and (other.xx <= (x + sprite_width + other.ObjectOffX))
+			_is_in_solid_y = (other.yy >= (y - sprite_height - other.ObjectOffY)) and (other.yy <= (y + sprite_height + other.ObjectOffY))
 
 			other.count++
 				
 			if (other.count >= 100) {
-				break
+				exit
 			}
 		}
 	}
