@@ -6,7 +6,7 @@ ObjectOffY = sprite_get_yoffset(sPlayer)
 
 Collision = oCollision // Object in which we wont spawn fishes
 
-isLeft = 50000 // How many objects in the room
+isLeft = irandom_range(1, 6) // How many objects in the room
 
 layer_create(10, Layer)
 
